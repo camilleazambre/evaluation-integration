@@ -1,0 +1,163 @@
+/**texte**/
+body {
+    margin : 0px;
+}
+
+p,h1,h2,h3,h4 {
+    font-family: Lato, sans-serif;
+    color: #222222;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 16px;
+    color: #444444;
+    
+}
+
+.txt-bleu {
+   color: #0AA8A7;
+}
+
+/**Header**/
+.site-header {
+    padding: 1em;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+}
+
+.header-logo {
+    max-width: 50em;
+    min-width: 10em;
+}
+
+.menu-burger {
+    width: 2em;
+    
+}
+
+/**BOUTONS**/
+
+.btn {
+    background-color: #0AA8A7;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**BANNIERE**/
+
+.banniere {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.premiere-image {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/**ICONES**/
+
+.icone {
+    background-color: #EDF6F5;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.block-blanc {
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+.image-block {
+    width: 40px;
+}
+
+/**INFOGRAPHIE**/
+
+.infographie {
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.info1 {
+   width: 100%
+}
+
+.infographie2 {
+    background-color: #EDF6F5;
+    padding-bottom: 20px;
+}
+
+/**CTA**/
+
+.cta {
+    align-items: center;
+    width: 90%;
+    background-color:#EDF6F5;
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px rgb(238, 237, 237);
+    margin-left: 15px;
+}
+
+/**FOOTER**/
+
+.footer {
+    background-color:#EDF6F5;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+    
+}
+
+.logo-footer {
+    
+    width: 8em;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.logo-fb, .logo-link, .logo-twitter, .logo-insta {
+    width: 2em;
+    margin-left: 5px;
+    padding-left: 10px;
+}
